@@ -42,7 +42,7 @@ def add_pet(request):
 
     context ={
             'form':form,
-            )
+            }
     return render(request,'adopt/edit.html',context)
 
 
